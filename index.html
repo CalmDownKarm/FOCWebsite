@@ -3,6 +3,7 @@
 	<head>
 		<title> FOC Project Website on Computer Architecture</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 		<link type="text/css" rel="stylesheet" href="stylesheets/base_styles.css"/>
 		<!--[if lt IE 9]>
@@ -10,17 +11,45 @@
 		<![endif]-->
 	</head>
 	<body>
+		<header>
 		<nav>
 			<ul>
 				<li><a href = "index.html">Home</a></li>
-				<li><a href="history.html">History</a></li>
-				<li><a href="glossary.html">Glossary</a></li>
+				<li><a href="players.html">The Players</a></li>
+				<li><a href="future.html">Finfets, Moore's Law and The Future</a></li>
 			</ul>
 		</nav>
+		</header>
 		<section id = "basic">
-			<h1>Von Neumann Architecture</h1>
-			<p>The Von Neumann Model is a computer architecture that was first described in 1945 by the Hungarian physicist John Von Neumann</p>
-			<p>The concept of the stored program complete with the Von Neumann Model has powered almost every computer built since then, and only now, more than half a century after it's inception is the architecture starting to be replaced with more modern alternatives. This speaks to the longevity of his genius.</p>
+			<div class = "home">
+				<h1>Processors</h1>
+				<p>The Central Processing Unit colloquially known as a processor is the brain of the computer.  Through the Von Neuman Architecture  the input is relayed via the instruction register to the control unit, which retreives instructions and passes them to the ALU for execution.</p>
+				<p> Modern day processors are all microprocessors, which means that their entire circuitry is contained on a single integrated circuit. In order to make computers cheaper, manufacturer's often employ SoC (System On a Chip) configurations.</p>
+				<p> Previously, all the major processor companies competed over similar products, however today, on desktops and laptops, Intel is king, with AMD occupying a nice space by creating highly parallelized processors. In the mobile space, the competiton is fast and furious, with players such as ARM, Qualcomm and Intel. In the embedded space, hobbyists love using AVR's while Industry always picks ARM</p>
+			</div>
+			<div class = "image_bar">
+				<div class = "thumbnail">
+					<div class="image">
+						<a href="#"><img src="#"/></a>
+					</div>
+				</div>
+				<div class = "thumbnail">
+					<div class="image">
+						<a href="#"><img src="#"/></a>
+					</div>
+				</div>
+				<div class = "thumbnail">
+					<div class="image">
+						<a href="#"><img src="#"/></a>
+					</div>
+				</div>
+				<div class = "thumbnail">
+					<div class="image">
+						<a href="#"><img src="#"/></a>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	</body>
 </html>
