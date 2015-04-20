@@ -3,7 +3,9 @@ header, section, footer,
 aside, nav, article, figure {
   display: block;
 }
-
+basic{
+	background-color: #EFFBF5;
+}
 
 /* Headings */
 h1{font-size: 3em}
@@ -114,4 +116,21 @@ img.display{
 	float:right;
 	height:100px;
 	width:200px;
+}
+.blocktext{
+	border-radius: 15px 50px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	background-color: #CCCCFF;
+	border-width: 10px solid black;
+	margin-bottom: 1px;
+	position: relative;
+	top:50%;
+}
+.videocontainer{
+	margin:auto;
+}
+footer p{
+	text-align: center;
 }
