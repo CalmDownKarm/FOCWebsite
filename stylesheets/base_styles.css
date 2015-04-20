@@ -13,32 +13,13 @@ h4 {font-size: 1.286em} /* 18px */
 h5 {font-size: 1.143em} /* 16px */
 h6 {font-size: 1em} /* 14px */
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
   margin-bottom: .8em;
+  text-align: center;
 }
 
-/* Anchors */
-a {outline: 0;}
-
-a img {border: 0px; text-decoration: none;}
-
-a:link, a:visited {
-
-  padding: 0 1px;
-}
-
-a:hover, a:active {
-  background-color: #C74350;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 1px 1px 1px #333;
-}
-
-h1{
-	text-align:center;
-}
 body{
 	font-family: Ubuntu, sans-serif;
 	width: 100%;
@@ -124,4 +105,13 @@ img.display{
 }
 .image_bar:hover .thumbnail:not(:hover){
 	opacity:0.5;
+}
+.basic{
+	display:block:;
+}
+.imagefloats{
+	display:inline;
+	float:right;
+	height:100px;
+	width:200px;
 }
